@@ -1,8 +1,14 @@
 .menu {
   background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
+  padding: 100px 0;
 }
 
 .menu__title {
@@ -13,6 +19,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0 0 24px;
 }
 
 .menu__subtitle {
@@ -23,6 +30,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin: 0 0 100px;
 }
 
 .menu__cards {
