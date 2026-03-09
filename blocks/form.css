@@ -43,6 +43,11 @@
   border: none;
 }
 
+.form__button:hover {
+  background-color: #3f96f3;
+  transition: background-color 0.5s;
+}
+
 input::-webkit-input-placeholder {
   font-family: "Inter, Arial, sans-serif";
   font-style: normal;
